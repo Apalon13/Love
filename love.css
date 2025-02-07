@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff0077;
+}
+
+#question {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff0077;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.yes-button, .no-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yes-button {
+    background-color: #5900ff;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 2000px;
+}
+
+.no-button {
+    background-color: #ff1100;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 2000px;
+}
+
+#love-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff0077;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.love-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff0077;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#text {
+    fill: none;
+    stroke: #ff0077;
+    stroke-width: 2;
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.gif-container {
+    position: fixed;
+    bottom: -20px;  
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 280px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+}
+
+.love-gif {
+    width: 400px; 
+    height: 280px;
+}
